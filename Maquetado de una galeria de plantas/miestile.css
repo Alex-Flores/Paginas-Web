@@ -1,0 +1,354 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+header{
+    width: 100%;
+    height: 200px;
+    /* background: #ccc; */
+}
+section{
+    width: 100%;
+    height: 374px;
+    /* background-color: red; */
+    display: flex;
+    justify-content:space-evenly;
+}
+.noticias{
+    width: 615px;
+    height: 371px;
+    /* background: green; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+footer{
+    width: 100%;
+    height: 280px;
+    background: black;
+    color: white;
+    text-align: center;
+}
+header > .cabeza{
+    width: 100%;
+    height: 40px;
+    background: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header > .cabeza > .redes1{
+    float: left;
+    width: 152px;
+    height: 32px;
+    /* background: #ccc; */
+    position: relative;
+    left: 3rem;
+    padding-top: 0.3rem;
+}
+header > .cabeza > .search{
+    float: right;
+    width: 100px;
+    height: 27px;
+    /* background: #ccc; */
+    position: relative;
+    right: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.search > p > b{
+    position: relative;
+    top: -0.4rem;
+    font-size: 1.3rem;
+}
+header > .logo{
+    width: 100%;
+    height: 120px;
+    /* background: red; */
+    text-align: center;
+}
+h3{
+    font-family: 'Lobster', cursive;
+    font-size: 5rem;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+header > .logo > p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: green;
+}
+header > nav > ul{
+    width: 100%;
+    height: 2.6rem;
+    /* background: green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+header > nav > ul > li{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-left: 1rem;
+    color: rgb(151, 149, 149);
+}
+section > div{
+    width: 32%;
+    height: 360px;
+    background: #ccc;
+}
+.noticias > .nt1{
+    width: 600px;
+    height: 172px;
+    /* background: #ccc; */
+    display: flex;
+    flex-direction: row;
+}
+.caja1{
+    width: 280px;
+    height: 171px;
+    background: linear-gradient(360deg, rgb(0, 0, 0), transparent);
+    border: 2px solid rgb(187, 187, 187);
+    font-size: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nt_caja1{
+    width: 100%;
+    height: 171px;
+    /* background: rgb(204, 128, 128); */
+    padding-left: 1rem;
+}
+.btn{
+    width: 3rem;
+    height: 1rem;
+    background: green;
+    color: rgb(255, 255, 255) !important;
+    border-radius: 5px;
+    text-align: center;
+}
+.nt_caja1 > h4{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.nt_caja1 > p{
+    color: rgb(122, 110, 110);
+}
+.nt_caja1 > .p1{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: black;
+}
+.nt_caja1 > .p1 > img{
+    position: relative;
+    top: 0.5rem;
+}
+
+
+
+.noticias > .nt2{
+    width: 600px;
+    height: 172px;
+    /* background: #ccc; */
+    display: flex;
+    flex-direction: row;
+}
+.caja2{
+    width: 280px;
+    height: 171px;
+    background: linear-gradient(360deg, rgb(0, 0, 0), transparent);
+    border: 2px solid rgb(187, 187, 187);
+    font-size: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nt_caja2{
+    width: 100%;
+    height: 171px;
+    /* background: rgb(204, 128, 128); */
+    padding-left: 1rem;
+}
+.btn{
+    width: 3rem;
+    height: 1rem;
+    background: green;
+    border-radius: 5px;
+    text-align: center;
+}
+.nt_caja2 > h4{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.nt_caja2 > p{
+    color: rgb(122, 110, 110);
+}
+.nt_caja2 > .p2{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: black;
+}
+.nt_caja2 > .p2 > img{
+    position: relative;
+    top: 0.5rem;
+}
+/* GALERIA */
+.galera1 > p{
+    font-size: 7rem;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 5rem;
+}
+.galera1 > .fondo{
+    width: 100%;
+    height: 104px;
+    background: linear-gradient(360deg, rgb(0, 0, 0), transparent);
+    position: relative;
+    top: 3rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.inpt1{
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+    width: 100px;
+    height: 22px;
+    background: green;
+    border-radius: 5px;
+    text-align: center;
+}
+.text1{
+    position: relative;
+    top: 1.2rem;
+    left: 1rem;
+}
+.fecha1{
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+    font-size: 0.7rem;
+}
+
+.galera2 > p{
+    font-size: 7rem;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 5rem;
+}
+.galera2 > .fondo{
+    width: 100%;
+    height: 104px;
+    background: linear-gradient(360deg, rgb(0, 0, 0), transparent);
+    position: relative;
+    top: 3rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.inpt2{
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+    width: 100px;
+    height: 22px;
+    background: green;
+    border-radius: 5px;
+    text-align: center;
+}
+.text2{
+    position: relative;
+    top: 1.2rem;
+    left: 1rem;
+}
+.fecha2{
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+    font-size: 0.7rem;
+}
+
+.galera3 > p{
+    font-size: 7rem;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 5rem;
+}
+.galera3 > .fondo{
+    width: 100%;
+    height: 104px;
+    background: linear-gradient(360deg, rgb(0, 0, 0), transparent);
+    position: relative;
+    top: 3rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.inpt3{
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+    width: 100px;
+    height: 22px;
+    background: green;
+    border-radius: 5px;
+    text-align: center;
+}
+.text3{
+    position: relative;
+    top: 1.2rem;
+    left: 1rem;
+}
+.fecha3{
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+    font-size: 0.7rem;
+}
+/* FIN DE GALERIA */
+.noticias > .nt > .caja2{
+    width: 185px;
+    height: 171px;
+    background: rgb(235, 134, 134);
+    float: left;
+}
+footer > .redes{
+    width: 20rem;
+    height: 10rem;
+    margin: auto;
+}
+footer > .cad > p{
+    color: rgb(167, 166, 166);
+    font-weight: bold;
+}
+footer > .cav{
+    position: relative;
+    top: 4rem;
+}
+footer > .cav > h6{
+    color: rgb(179, 171, 171);
+}
+footer > .cav > h6 > b{
+    color: white;
+}
+footer > .caf > p{
+    width: 42rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+footer > .caf > .redes > img{
+    background: #ccc;
+    color: #ccc;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    position: relative;
+    top: 1rem;
+}
