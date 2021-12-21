@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.div-anidado{
+    width: 50rem;
+    height: 2rem;
+    /* background-color: rgb(100, 184, 156); */
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.div-anidado > div > a{
+    color: white !important;
+    /* width: 10rem; */
+    height: 2rem;
+    margin: 0px 1rem;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+header{
+    color: white;
+    background-image: url(./imagenes\ .svg/fondo.jpg);
+    width: 100%;
+    height: 75vh;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+header > div > h1{
+    width: 60%;
+}
+nav{
+    height: 4rem;
+    background-color: rgb(29, 32, 65);
+}
+.navbar-brand{
+    color: white !important;
+    background-image: url(./iconos\ y\ logo/LogoComputing.svg);
+    background-position: center;
+    background-size: cover;
+    width: 75px;
+    height: 50px;
+}
+.navbar-brand > p{
+    padding-left: 5rem;
+    padding-top: 0.4rem;
+}
+.row{
+    text-align: center;
+}
+.cover{
+    height: 400px;
+    background: url(img/rsz_fahmi-fakhrudin-nzyzausbv0m-unsplash.jpg);
+    color: white;
+    /* esto redimenciona la imagen para que ocupe la proporcion adecuada */
+    background-size: cover;
+    background-position: center;
+    /* permite definir la opacidad */
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* hace una operacion matematica entre los colores */
+    background-blend-mode: darken;
+}
+.cover-samll{
+    height: 200px;
+    background-blend-mode: normal;
+}
+.str-principal{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.str{
+    float: left;
+    margin: auto 10px;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-position: center;
+}
+.formulatio{
+    width: 100%;
+    height: 20rem;
+    background-color: rgb(29, 32, 65);
+    color: white;
+    text-align: center;
+}
+.formulatio > h3{
+    text-align: center;
+}
+.inputs{
+    width: 50%;
+    height: 2rem;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+    justify-self: center;
+    align-items: center;
+    margin: auto;
+}
+.inputs > input{
+    width: 45%;
+    height: 1.5rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.names-input{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 50%;
+    height: 2rem;
+    font-size: 18px;
+}
+.mail{
+    display: flex;
+    border-radius: 5px;
+    margin: auto;
+    width: 47%;
+}
+textarea{
+    width: 47%;
+    height: 4rem;
+}
+.buttonss{
+    margin: auto;
+    width: 47%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.buttonss > button{
+    padding: 0px 18px;
+    border-radius: 5px;
+}
+footer{
+    background-color: #ccc;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* PAGINA NOSOTROS */
+.header-nosotros{
+    background-position: bottom;
+    background-size: cover !important;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-nosotros > div{
+    display: flex;
+    justify-content: center;
+}
+.header-nosotros > div > h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.img-nosotros{
+    width: 45rem;
+    height: 20rem;
+    background-size: cover;
+    background-position: center;
+}
+.banners{
+    background-color: rgb(29, 32, 65);
+    height: 5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+.row-nosotros{
+    width: 50rem;
+    margin: auto;
+}
+.card-nosotros{
+    width: 50rem;
+    height: 17rem;
+    /* background-color: rosybrown; */
+    border: 2px solid #ccc;
+}
+.card-nosotros-img{
+    height: 400px;
+    width: 250px;
+    background: url(img/rsz_fahmi-fakhrudin-nzyzausbv0m-unsplash.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    /* background-color: red; */
+}
+.card-nosotros-body{
+    width: 550px;
+    height: 200px;
+    background-blend-mode: normal;
+    /* background-color: rgb(95, 72, 72); */
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.str-nosotros{
+    margin-top: -1rem;
+    height: 2rem;
+}
+.btn-danger{
+    padding: 4px 14px
+}
+.header-investigacion{
+    background-image: url(./imagenes\ .svg/servidor-5.jpg) !important;
+}
+.header-investigacion > div > h1{
+    width: 50%;
+}
+.row-investigacion{
+    width: 80%;
+    margin: auto;
+}
+.div-investigacion-principal{
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.div-investigacion-img{
+    width: 33%;
+    height: 32rem;
+    background-size: cover;
+    background-position: center;
+    background-size: 40rem;
+    position: relative;
+    left: -6rem;
+}
+.div-investigacion-text{
+    margin-top: 12rem;
+    font-size: 1.2rem;
+}
+.header-becas{
+    z-index: -1;
+    position: relative;
+    top: -2px;
+}
+.cover-becas{
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 14rem;
+    height: 10rem;
+}
+.div-becas{
+    width: 50rem;
+    font-size: 1.5rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
